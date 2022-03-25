@@ -481,6 +481,26 @@ var ProductMetadataJSON = `
       "metadata": null
     },
     {
+      "name": "chef/automate-supermarket-redis",
+      "metadata": {
+        "name": "chef/automate-supermarket-redis",
+        "data_service": false,
+        "binlinks": null,
+        "uses_platform_scaffolding": false,
+        "bootstrap": null
+      }
+    },
+    {
+      "name": "chef/automate-supermarket",
+      "metadata": {
+        "name": "chef/automate-supermarket",
+        "data_service": false,
+        "binlinks": null,
+        "uses_platform_scaffolding": false,
+        "bootstrap": null
+      }
+    },
+    {
       "name": "chef/automate-supermarket-nginx",
       "metadata": {
         "name": "chef/automate-supermarket-nginx",
@@ -662,7 +682,7 @@ var ProductMetadataJSON = `
       ],
       "type": "product",
       "services": [
-        "chef/automate-supermarket-nginx"
+        "chef/automate-supermarket-redis"
       ],
       "packages": null,
       "dependencies": [
