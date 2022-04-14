@@ -497,7 +497,18 @@ var ProductMetadataJSON = `
         "data_service": false,
         "binlinks": null,
         "uses_platform_scaffolding": true,
-        "bootstrap": null
+        "bootstrap": [
+          {
+            "type": "secret",
+            "optional": false,
+            "secret_spec": "supermarket.access_key_id"
+          },
+          {
+            "type": "secret",
+            "optional": false,
+            "secret_spec": "supermarket.secret_access_key"
+          }
+        ]
       }
     },
     {
