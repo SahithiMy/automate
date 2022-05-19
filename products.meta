@@ -58,6 +58,7 @@
     "chef/automate-supermarket-redis",
     "chef/automate-supermarket",
     "chef/automate-supermarket-nginx",
+    "chef/automate-supermarket-sidekiq",
     "core/rsync"
   ],
 
@@ -186,7 +187,8 @@
       "services": [
         "chef/automate-supermarket-redis",
         "chef/automate-supermarket",
-        "chef/automate-supermarket-nginx"
+        "chef/automate-supermarket-nginx",
+        "chef/automate-supermarket-sidekiq"
       ]
     },
     {
