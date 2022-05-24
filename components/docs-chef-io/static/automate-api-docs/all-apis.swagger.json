@@ -20351,6 +20351,9 @@
         "deployment_id": {
           "type": "string"
         },
+        "deployment_type": {
+          "type": "string"
+        },
         "license_id": {
           "type": "string"
         },
